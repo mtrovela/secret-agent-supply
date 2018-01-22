@@ -152,25 +152,46 @@ span {
   padding: 4.5rem 2rem  4.5rem 2rem;
 }
 
-.contact {
+.content#contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.content-block {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  margin: 3rem 0 1rem 0;
-  color: white;
-  background-color: black;
-  padding: 1rem 1rem;
-  text-align: center;
+  justify-content: space-between;
   width: 35%;
 }
 
-/*p #location {
+.contact-label {
   display: flex;
   flex-direction: column;
-  width: 35%;
-}*/
+  color: white;
+  background-color: black;
+  margin: 3rem 0 1rem 0;
+  padding: 1rem 2rem 1rem 2rem;
+  text-align: left;
+}
 
-#hours {
-  display: block;
+.contact-body {
+  display: flex;
+  flex-direction: row;
+}
+
+footer {
+  align-items: center;
+  margin-top: 4rem;
+  height: 5rem;
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+.content#footer {
+  display: flex;
   flex-direction: column;
+  color: white;
+  padding: 2rem 0;
 }
